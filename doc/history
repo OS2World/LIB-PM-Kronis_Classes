@@ -1,0 +1,72 @@
+ 
+                  ***  K R O N I ' S   C L A S S E S  ***
+
+              --  A class library for lazy PM programmers  --
+
+                         ***   H I S T O R Y   ***
+
+******************************************************************************
+
+FIX = Bugfix
+CHG = Change of current behaviour
+NEW = new feature
+ENH = enhancement of current feature
+
+******************************************************************************
+
+Version 0.10 (01/27/97)
+
+  - Initial release
+
+******************************************************************************
+
+Version 0.11 (02/18/97)
+
+  - CHG: renamed KrLine/KrString/KrList to KrGLine/KrGString/KrGList
+         for better consistency with IUCL.
+  - NEW: added KrGBox
+  - NEW: added KrRectangle
+  - ENH: KrCoordSystemTranslator: new overload for translate().
+  - FIX: KrAsyncMain: use semaphore instead of stop/start for thread handling
+         This fixes strange UICL errors that occured after reentering
+         KrAsyncMain::main().
+  - NEW: added KrMenuBar
+  - FIX: KrWinComm: don't construct Windows before first input
+         This should allow the user to create KrWinComm objects even before
+         IApplication::run() is being executed
+  - FIX: KrWinComm: multiple uses of the same KrWinComm object resulted in 
+         errors.
+  - ENH: KrMemoryBitmap: new method list()
+  - FIX: KrPrinter: multiple uses in one session resulted in errors.
+  - NEW: exception-based error handling and tracing (see krtrace.hpp)
+  - ENH: all classes use the error handling provided by krtrace.hpp
+  - NEW: added KrProfile
+  - CHG: replaced file "manual" by file "guide.inf"
+  - CHG: updated doc/* and makefiles
+
+******************************************************************************
+
+Version 0.12 (02/25/97)
+
+  - NEW: added members exists() and existsKey() to KrProfile
+  - CHG: setKey() and key() moved from _KrProfileBase to KrProfile
+  - CHG: KrProfile::setKey() now calls clearBuffer().
+  - ENH: added KrWinComm::ok()
+  - FIX: KrProfile didn't clear the error state of its streams
+  - CHG: KrAsyncMain::command() changed from protected to private
+  - NEW: added reference guide "ref.inf" (still incomplete)
+  - CHG: KrTrace inherits now from IBase instead of IVBase.
+  - NEW: added KrTrace::KrTrace() as private to prevent accidental
+         construction of KrTrace objects
+  - CHG: KrTrace::_terminate() changed from public to private
+  - ENH: KrWinComm: several functional and cosmetic enhancements
+  - CHG: Makefiles now optimize .exe size (for psychological reasons :-) )
+  - FIX: Makefiles produced unneccessary error messages
+  - NEW: Additional programs in demo directory
+  - FIX: KrProfile didn't clear its own buffer after key change
+  - ENH: cosmetic changes in demo.cpp
+  - ENH: rewritten parts of guide.inf
+  - CHG: updated install.cmd
+  - CHG: updated doc/*
+
+******************************************************************************

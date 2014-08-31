@@ -1,0 +1,22 @@
+Here are my plans for future releases (no promises, however)
+
+- general:
+  + less bugs
+  + nicer source code
+  + more comments
+
+- near future:
+  + Complete reference guide
+  + include *all* features in demo programs
+  + let KrCommonTextOutput inherit from ostream
+  + re-write graphics classes (current constructors too complicated)
+
+- far future:
+  + more graphics objects
+  + more built-in input dialog features
+  + get rid of the templates
+  + more extensive user's guide
+  + link the library as a DLL (currently, the code is so small
+                               that this does not pay off)
+
+If you have other good ideas, please let me know!

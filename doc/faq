@@ -1,0 +1,44 @@
+ 
+                  ***  K R O N I ' S   C L A S S E S  ***
+
+              --  A class library for lazy PM programmers  --
+
+                   ***   Frequently asked questions   ***
+
+
+Software requirements:  OS/2 Warp  and  Visual Age C++.
+Hardware Requirements:  none  (anything which runs Warp and VAC++ is good 
+                               enough).
+
+Please read the files  readme.1st  and  doc/legal  before you go on!
+
+******************************************************************************
+
+Q: My programs will run very well on my machine, but on other computers,
+   when the user double-clicks the icon, only the settings will pop up.
+
+A: Most likely, you did compile your program and/or the library using
+   dynamic linking (this is the default). The program then needs the
+   VAC++ DLLs. Re-Build your program and the library using static linkage.
+   For the library, this can be done using
+     nmake /a static=1 KrClass.mak
+   Also, read "Compiling and linking your programs" in the user's guide.
+
+******************************************************************************
+
+Q: The debuger only shows assembler code!
+
+A: Re-Build your programs and the library with debugging set to on.
+   For the library, this can be done using
+     nmake /a debug=1 KrClass.mak
+
+******************************************************************************
+
+Q: Why postcardware?
+
+A: I wanted to make the classes freely available for profit and non-profit
+   purposes. However, I also want to know how many people are using them, so
+   that I can judge better whether or not to put the additional work required
+   for publication into future versions. Hence, postcardware.
+
+******************************************************************************

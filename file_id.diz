@@ -1,0 +1,13 @@
+Kroni's Classes version 0.12 - A class library for lazy PM programmers
+* filename: krcls012.zip
+* replaces: krcls011.zip
+- requires IBM Visual Age C++ and OS/2 Warp
+- makes many basic programming tasks easier, among them:
+  + user input, text output
+  + drawing graphics, printing
+  + error handling
+  + ini file handling
+- uses and extends the IBM open class library
+- language: english
+- postcardware
+Wolfgang Kronberg (vlk@amt.comlink.de)
