@@ -76,24 +76,7 @@ To use Kroni's classes, do the following:
 7a. If you don't like what you see, delete the whole software including
     this readme.1st ;) *now*.
 
-7b. If you like what you see, get a postcard *now*, write at least your name
-    and the version number of Kroni's Classes onto it, and mail it to:
-
-      Wolfgang Kronberg
-      Richard-Linde-Weg 16a
-      21033 Hamburg
-      Germany
-
-    The postcard could e.g. show your home city (if it's not Hamburg ;) ).
-    You might also want to add other details like your address or your
-    email address. I will not give any information from the postcards
-    away to anybody.
-
-    In addition (but only in addition!) to the postcard, you may of course
-    send me anything else, like e.g. comments, poems, Twix, money, gold,
-    diamonds, your own software, ... :-)  But that is only for those people
-    who have a nice idea and want me to participate. You *need* only to send
-    the postcard with the name and the version number.
+7b. The license of this software is BSD 3 Clauses. 
 
 8.  If you are still reading this because you did not delete it at 6a., you
     may now have a look at the other directories and/or compile your own
