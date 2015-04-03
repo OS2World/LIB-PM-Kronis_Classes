@@ -1,54 +1,19 @@
- 
-                  ***  K R O N I ' S   C L A S S E S  ***
+Wolfgang Kronberg
+1997
 
-              --  A class library for lazy PM programmers  --
+In the original BSD license, the occurrence of "copyright holder" in the 3rd clause read "ORGANIZATION", placeholder for "University of California". In the original BSD license, both occurrences of the phrase "COPYRIGHT HOLDERS AND CONTRIBUTORS" in the disclaimer read "REGENTS AND CONTRIBUTORS".
 
-                         ***   L I C E N C E   ***
+Here is the license template:
 
-You may:
+Copyright (c) 1997, Wolfgang Kronberg
+All rights reserved.
 
-- make and distribute as many copies of the complete archive as you want.
-  When doing this, the archive must always stay complete and may not be 
-  changed in any way.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
-- install the software on one computer and run all .exe files.
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 
-If you are not registered, you may not do anything else with the software,
-including studying of the source code.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
-To register, you must write your full name and the version number of
-Kroni's Classes on a postcard and mail it to:
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
-   Wolfgang Kronberg
-   Richard-Linde-Weg 16a
-   21033 Hamburg
-   Germany
-
-If you are registered, you get the following additional rights:  You may
-
-- use the source codes for studying
-
-- use and change the software to write your own programs
-
-- distribute compiled versions of your own programs
-
-- distribute source codes of your programs that include parts or all of
-  Kroni's Classes *if* you also include the copyright notices that are
-  placed at the top of all original source code files of Kroni's Classes.
-
-NOTE THESE DISCLAIMERS:
-
-I release this software "as is". Use it completely at your own risk. I can
-not be hold responsible for any damage which is inflicted directly or
-indirectly to you or other persons or objects in any way by bugs or 
-unexpected behaviour of Kroni's Classes. If you do not accept this, you are
-not allowed to use the software at all. If these conditions are illegal in
-your country, it is not allowed to use the software in your country at all.
-
-I wrote this software completely on my own. However, in some countries, even
-simple algorithms might be copyrighted. This means that in some countries
-I might not have the right to grant you the above rights. If this is indeed
-the case in your country, it is not allowed to use the software in your
-country at all.
-
-25.02.1997, Hamburg, Germany
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
